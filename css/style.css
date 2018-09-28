@@ -66,3 +66,56 @@ body,
     width: 3vw;
     top: -60px;
 }
+
+
+
+
+/* this is footnote css ***********/
+.footnote_link{
+    color:blue;
+    font-weight: bold;
+    cursor:pointer;
+    position: relative;
+    
+}
+
+.footnote{
+    position: absolute;
+    top:30px;
+    left:0;
+    
+    
+    border-radius: 10px;
+    border: 1px solid blue;
+    z-index: 5;
+    display: none;
+    color:black;
+    font-weight: normal;
+    cursor: text;
+    background-color: white;
+    /*box-shadow: 2px 2px 4px 0px rgba(0,0,255,0.5);*/
+    text-align: left;
+
+}
+
+.footnote_header
+{
+    display: block;
+    
+    height: 30px;
+    padding: 0 5px 0 5px;
+    color:white;
+    background-color: blue;
+    border-radius: 10px 10px 0 0;
+    font-weight: bold;
+    
+}
+
+.footnote_txt{
+    display: block;
+    min-width:15vw;
+    line-height: 1vw;
+    
+    font-size: 0.8vw;
+    padding: 5px;
+}
